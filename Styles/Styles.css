@@ -5,3 +5,122 @@
     box-sizing: border-box;
 }
 
+#principal{
+   background-color: #526172;
+   width: 100%;
+   height: 65vh;
+}
+
+.navegacion{
+    height: 17vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 14vh;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    background: #606c6b;
+    border-radius: 22px;
+    font-size: 1.06rem;
+    padding: 13%;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.lista{
+    display: flex;
+    width: 24%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#cabezera{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 48vh;
+}
+
+.texto h1{
+    color: white;
+}
+
+.texto{
+    color: #cfc3c3;
+}
+
+.texto #texto{
+    color: #424040f5;
+}
+
+#boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 44%;
+    height: 10vh;
+}
+
+#boton button{
+    background: #4991db;
+    border-radius: 22px;
+    font-size: 1rem;
+    padding: 1%;
+    color: white;
+    border:none;
+    /*margin-top: 3%; */
+}
+
+#imagentexto{
+    border-bottom: ridge;
+}
+
+#marcas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 13vh;
+    background-color: #e7e7e7;
+    border-bottom: ridge;
+}
+#fichas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fichaUno img{
+    width: 50%;
+    height: 50%;
+}
+.fichaUno{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
