@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/*header*/
 #principal{
    background-color: #526172;
    width: 100%;
@@ -55,8 +56,8 @@
 
 .imagen{
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-end;
+    width: 61%;
     height: 48vh;
 }
 
@@ -74,11 +75,13 @@
 
 #boton{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    width: 44%;
-    height: 10vh;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 52%;
+    height: 12vh;
+    
 }
 
 #boton button{
@@ -95,6 +98,7 @@
     border-bottom: ridge;
 }
 
+/*seccion marcas*/
 #marcas{
     display: flex;
     flex-direction: row;
@@ -105,13 +109,18 @@
     background-color: #e7e7e7;
     border-bottom: ridge;
 }
+
+/*seccion fichas*/
 #fichas{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 50vh;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    gap: 2%;
+    
 }
 .fichaUno img{
     width: 50%;
@@ -120,7 +129,72 @@
 .fichaUno{
     display: flex;
     align-items: center;
-    width: 30%;
+    width: 23%;
     flex-direction: column;
     flex-wrap: nowrap;
+}
+
+.fichaUno h1{
+    color: #606c6b;
+    margin-top: 12%;
+    font-size: 2.2rem;
+}
+
+.fichaUno p{
+    color: #606c6b;
+    font-size: 1.1rem;   
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 11%;
+}
+
+.botonficha{
+    background-color: #2e8cd7;
+    border: none;
+    padding: 4%;
+    border-radius: 7px;
+    color: white;
+    font-size: 1rem;
+}
+
+/*seccion imagenes*/
+.titulo{
+    width: 25%;
+    text-align: center;
+    height: 12vh;
+    color: #616262;
+}
+
+#marcos{
+    width: 100%;
+    height: 44vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#marcos img{
+    width: 20%;  
+}
+
+/*secciontres*/
+#secciontres{
+    width: 50%;
+}
+.contenedor{
+    display: flex;
+    width: 88%;
+    font-size: 1.1rem;
+    gap: 28px;
+    flex-direction: row;
+}
+
+.contenedor img{
+    width: 42%;
+    height: 23vh;
+}
+
+.parrafos{
+        width: 50%;
 }
